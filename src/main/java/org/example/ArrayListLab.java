@@ -13,14 +13,25 @@ public class ArrayListLab {
         // System.out.println("Current tasks: " + missionTasks);
         // System.out.println("Number of tasks: " + missionTasks.size());
 
-        ArrayList<String> equipment = new ArrayList<>();
-        equipment.add("Compass");
-        equipment.add("Map");
-        equipment.add("Radio");
-        String secondItem = equipment.get(1);
-        System.out.println("Item at index 1: " + secondItem);
-        System.out.println("List before modification: " + equipment);
-        equipment.set(0, "GPS");
-        System.out.println("List after modification: " + equipment);
+        // ArrayList<String> equipment = new ArrayList<>();
+        // equipment.add("Compass");
+        // equipment.add("Map");
+        // equipment.add("Radio");
+        // String secondItem = equipment.get(1);
+        // System.out.println("Item at index 1: " + secondItem);
+        // System.out.println("List before modification: " + equipment);
+        // equipment.set(0, "GPS");
+        // System.out.println("List after modification: " + equipment);
+
+        ArrayList<String> objectives = new ArrayList<>();
+        objectives.add("Primary Objective");
+        objectives.add("Tertiary Objective");
+        objectives.add(1, "Secondary Objective");
+        System.out.println("List after insertion: " + objectives);
+        String removedObjective = objectives.remove(2);
+        System.out.println("Removed objective: " + removedObjective);
+        System.out.println("List after removing by index: " + objectives);
+        objectives.remove("Primary Objective");
+        System.out.println("List after removing by index: " + objectives);
     }
 }
