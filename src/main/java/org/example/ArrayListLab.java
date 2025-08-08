@@ -59,14 +59,14 @@ public class ArrayListLab {
         // System.out.println("Role at index " + i + ": " + squad.get(i));
         // }
 
-        ArrayList<String> intel = new ArrayList<>();
-        intel.add("Enemy position: Sector 4");
-        intel.add("Weakness: Power generator");
-        System.out.println("Intel count before mission: " + intel.size());
-        System.out.println("Intel list: " + intel);
-        intel.clear();
-        System.out.println("\nIntel count after mission: " + intel.size());
-        System.out.println("Is the intel list empty now? " + intel.isEmpty());
-        System.out.println("Intel list: " + intel);
+        // ArrayList<String> intel = new ArrayList<>();
+        // intel.add("Enemy position: Sector 4");
+        // intel.add("Weakness: Power generator");
+        // System.out.println("Intel count before mission: " + intel.size());
+        // System.out.println("Intel list: " + intel);
+        // intel.clear();
+        // System.out.println("\nIntel count after mission: " + intel.size());
+        // System.out.println("Is the intel list empty now? " + intel.isEmpty());
+        // System.out.println("Intel list: " + intel);
     }
 }
