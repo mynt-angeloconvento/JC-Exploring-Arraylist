@@ -23,15 +23,26 @@ public class ArrayListLab {
         // equipment.set(0, "GPS");
         // System.out.println("List after modification: " + equipment);
 
-        ArrayList<String> objectives = new ArrayList<>();
-        objectives.add("Primary Objective");
-        objectives.add("Tertiary Objective");
-        objectives.add(1, "Secondary Objective");
-        System.out.println("List after insertion: " + objectives);
-        String removedObjective = objectives.remove(2);
-        System.out.println("Removed objective: " + removedObjective);
-        System.out.println("List after removing by index: " + objectives);
-        objectives.remove("Primary Objective");
-        System.out.println("List after removing by index: " + objectives);
+        // ArrayList<String> objectives = new ArrayList<>();
+        // objectives.add("Primary Objective");
+        // objectives.add("Tertiary Objective");
+        // objectives.add(1, "Secondary Objective");
+        // System.out.println("List after insertion: " + objectives);
+        // String removedObjective = objectives.remove(2);
+        // System.out.println("Removed objective: " + removedObjective);
+        // System.out.println("List after removing by index: " + objectives);
+        // objectives.remove("Primary Objective");
+        // System.out.println("List after removing by index: " + objectives);
+
+        ArrayList<String> waypoints = new ArrayList<>();
+        waypoints.add("Alpha");
+        waypoints.add("Bravo");
+        waypoints.add("Charlie");
+        boolean hasBravo = waypoints.contains("Bravo");
+        System.out.println("Does the list contain 'Bravo'? " + hasBravo);
+        int indexOfCharlie = waypoints.indexOf("Charlie");
+        System.out.println("Index of 'Charlie': " + indexOfCharlie);
+        int indexOfDelta = waypoints.indexOf("Delta");
+        System.out.println("Index of 'Delta': " + indexOfDelta);
     }
 }
